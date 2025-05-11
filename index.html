@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reestar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <h1 class="navbar__title">Reestar</h1>
+        <p class="navbar__desc">Home |</p>
+        <p class="navbar__desc">Recipie |</p>
+        <p class="navbar__desc">Contact</p>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="recipie__box">
+        <img src="./images/Recipie-01.jpeg" />
+        <p class="recipie__desc">
+          Idly (or Idli) is a traditional South Indian breakfast dish made from
+          a fermented batter of rice and urad dal (black gram).
+        </p>
+        <button class="recipie__button">Order Now</button>
+      </div>
+
+      <div class="recipie__box">
+        <img src="./images/Recipie-02.jpeg" />
+        <p class="recipie__desc">
+          Dosa is a thin,crispy South Indian crepe made from a fermented batter of rice and urad dal (black gram). 
+        </p>
+        <button class="recipie__button">Order Now</button>
+      </div>
+
+      <div class="recipie__box">
+        <img src="./images/Recipie-03.jpeg" />
+        <p class="recipie__desc">
+          Uttapam is a popular South Indian dish made from a fermented batter of
+          rice and urad dal (black gram).
+        </p>
+        <button class="recipie__button">Order Now</button>
+      </div>
+
+      <div class="recipie__box">
+        <img src="./images/Recipie-04.jpeg" />
+        <p class="recipie__desc">
+          Poori (or Puri) is a deep-fried Indian bread made from wheat flour
+          dough, rolled into small circles and puffed up.
+        </p>
+        <button class="recipie__button">Order Now</button>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h2 class="footer__title">Contact Us</h2>
+      <form>
+        <table>
+          <tr>
+            <td><label for="name">Name:</label></td>
+            <td>
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter Your Name"
+                class="footer__input"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="age">Age:</label></td>
+            <td>
+              <input
+                type="number"
+                id="age"
+                placeholder="Enter Your Age"
+                class="footer__input"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter Your Email"
+                class="footer__input"
+              />
+            </td>
+          </tr>
+        </table>
+      </form>
+      <button class="footer__button">Send</button>
+    </div>
+  </body>
+</html>

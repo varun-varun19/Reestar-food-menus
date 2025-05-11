@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar__desc {
+  display: inline-block;
+  padding: 5px;
+  color: gray;
+}
+
+.navbar__desc:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.recipie__box {
+  width: 300px;
+  border: 2px solid black;
+  display: inline-block;
+  margin: 5px;
+}
+
+.recipie__box img {
+  width: 300px;
+  height: 400px;
+}
+
+.recipie__button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+}
+
+.container {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.recipie__desc:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.recipie__desc p{
+    margin-left: 5px;
+    padding: 15px;
+}
+
+.recipie__button:hover {
+  cursor: pointer;
+  background-color: lightblue;
+  color: black;
+}
+
+table {
+  display: inline-block;
+  text-align: center;
+}
+
+.footer__button {
+  width: 40%;
+  background-color: yellow;
+  color: black;
+  padding: 8px;
+  margin-top: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  font-size: 15px;
+}
+
+.footer__button:hover {
+  background-color: dimgrey;
+  color: white;
+}
+
+.footer__input {
+  padding: 5px;
+  margin-top: 12px;
+}
