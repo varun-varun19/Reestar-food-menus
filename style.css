@@ -15,7 +15,7 @@ body {
 
 .navbar__desc {
   display: inline-block;
-  padding: 5px;
+  padding: 2px;
   color: gray;
 }
 
@@ -63,9 +63,9 @@ body {
   cursor: pointer;
 }
 
-.recipie__desc p{
-    margin-left: 5px;
-    padding: 15px;
+.recipie__desc p {
+  margin-left: 5px;
+  padding: 15px;
 }
 
 .recipie__button:hover {
