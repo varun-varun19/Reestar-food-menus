@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reestar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <h1 class="navbar__title">Reestar</h1>
+      <p class="navbar__menus">Home |</p>
+      <p class="navbar__menus">Receipe |</p>
+      <p class="navbar__menus">Contact</p>
+    </div>
+
+    <div class="recipie">
+      <div class="recipie__menus">
+        <img src="./Images/Recipie-01.jpeg" />
+        <h1 class="recipie__title">Tradition on a Plate</h1>
+        <p class="recipie__desc">
+          Idli is a soft, steamed rice cake that’s a breakfast favorite across
+          South India.
+        </p>
+        <button class="recipie__order">Order Now</button>
+      </div>
+
+      <div class="recipie__menus">
+        <img src="./Images/Recipie-02.jpeg" />
+        <h1 class="recipie__title">It’s Dosa Time!</h1>
+        <p class="recipie__desc">
+          Dosa is a thin, crispy crepe made from fermented rice and urad dal
+          batter.
+        </p>
+        <button class="recipie__order">Order Now</button>
+      </div>
+
+      <div class="recipie__menus">
+        <img src="./Images/Recipie-03.jpeg" />
+        <h1 class="recipie__title">Crisp Meets Soft!</h1>
+        <p class="recipie__desc">
+          Uttapam is a thick, soft dosa topped with chopped onions, tomatoes
+          spices
+        </p>
+        <button class="recipie__order">Order Now</button>
+      </div>
+
+      <div class="recipie__menus">
+        <img src="./Images/Recipie-04.jpeg" />
+        <h1 class="recipie__title">Puffed Up Happy</h1>
+        <p class="recipie__desc">
+          Poori is a deep-fried Indian bread made from wheat flour, puffed up to
+          golden
+        </p>
+        <button class="recipie__order">Order Now</button>
+      </div>
+    </div>
+
+    <div class="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <table class="input__fields">
+          <tr>
+            <td><label for="name">Name:</label></td>
+            <td>
+              <input
+                class="input__box"
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="age">Age:</label></td>
+            <td>
+              <input
+                class="input__box"
+                type="number"
+                placeholder="Enter your age"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td>
+              <input
+                class="input__box"
+                type="email"
+                placeholder="Enter your email"
+              />
+            </td>
+          </tr>
+        </table>
+      </form>
+      <button class="send-btn">Send</button>
+    </div>
+  </body>
+</html>

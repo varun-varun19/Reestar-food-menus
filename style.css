@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar__menus {
+  display: inline-block;
+  color: gray;
+}
+
+.navbar__menus:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.recipie {
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.recipie__menus {
+  border: 2px solid black;
+  width: 300px;
+  margin-left: 8px;
+  display: inline-block;
+}
+
+.recipie__menus img {
+  width: 300px;
+  height: 400px;
+}
+
+.recipie__order {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 6px;
+}
+
+.recipie__order:hover {
+  background-color: cadetblue;
+  color: black;
+  cursor: pointer;
+  font-weight: 600;
+  border: none;
+}
+
+.contact {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.input__fields {
+  display: inline-block;
+}
+
+.input__box {
+  padding: 5px;
+  margin: 8px;
+  font-size: 16px;
+}
+
+.input__box:focus {
+  outline: none;
+}
+
+.send-btn {
+  width: 30%;
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: larger;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.send-btn:hover {
+  cursor: pointer;
+  background-color: lightskyblue;
+}
